@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <br><title>HawkBrain HomePage</title><br>
+    <link rel="stylesheet" type="text/css" href="game.css">
+  </head>
+  </body>
+
+    <body>
+
+        <div class="page-wrapper">
+        <br><h1>HawkBrain</h1><br>
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="create.html">FlashCards</a></li>
+                    <li><a href="game.html">Game</a></li>
+                    <li><a href="test.html">Quiz</a></li>
+                  
+                </ul>
+            </nav>
+
+        <div class="container">
+            <h2> Scramble Game</h2>
+            <h5> Enter a term and definition to the boxes below. Once you have added all the terms you wish to use,
+                 press start. In order to shuffle through your deck, you will need to press "start game" each time.</h5>
+            <div class="content">
+                    <input type="text" class="user-term" placeholder="Enter your term">
+                    <input type="text" class="user-hint" placeholder="Enter your hint">
+                    <button class="add-term">Add Term</button>
+                    <p class="word"></p>
+                    <div class="details">
+                        <p class="hint">Hint: <span></span></p>
+                        <p class="time">Time left: <span><b>30</b>s</span></p>
+                        <button class="start-game">Start Game </button>
+                </div>
+    
+                <div class="buttons">
+                    <button class="refresh-word">Refresh Word</button>
+                    <button class="check-word">Check Word </button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    <script src="game.js"></script>
+    </body>
+
+</html>
